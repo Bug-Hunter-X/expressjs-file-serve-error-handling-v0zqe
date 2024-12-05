@@ -1,0 +1,3 @@
+# Unhandled Errors in Express.js File Serving
+
+This repository demonstrates a common error in Express.js applications: unhandled errors during file system operations.  The `bug.js` file shows an example of how a file serving operation can crash the application if an error occurs during `res.sendFile`. The `bugSolution.js` file demonstrates the corrected code that handles potential errors gracefully.
